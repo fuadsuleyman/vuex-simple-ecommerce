@@ -1,8 +1,8 @@
 export default {
-  login(context) {
-    context.commit('setAuth', { isAuth: true });
+  addProductToCart(context, payload) {
+    context.commit('addProductToCart', payload);
   },
-  logout(context) {
-    context.commit('setAuth', { isAuth: false });
+  removeProductFromCart(context, payload) {
+    context.commit('removeProductFromCart', payload);
   },
 };

@@ -1,11 +1,8 @@
-import productMutations from './mutations';
-import productActions from './actions';
 import productGetters from './getters';
 
 export default {
   state() {
     return {
-      cart: { items: [], total: 0, qty: 0 },
       products: [
         {
           id: 'p1',
@@ -36,7 +33,5 @@ export default {
       ],
     };
   },
-  mutations: productMutations,
-  actions: productActions,
   getters: productGetters,
 };

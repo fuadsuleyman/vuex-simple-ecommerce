@@ -1,6 +1,5 @@
 export default {
-    getCart(state) {
-      return state.cart;
-    },
-  };
-  
+  getCart(state) {
+    return state.cart;
+  },
+};
