@@ -1,6 +1,6 @@
 export default {
   addProductToCart(state, payload) {
-    const productData = payload.product;
+    const productData = payload;
     const productInCartIndex = state.cart.items.findIndex(
       (ci) => ci.productId === productData.id
     );
