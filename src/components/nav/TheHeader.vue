@@ -28,8 +28,6 @@
 import { mapActions } from 'vuex';
 import { mapGetters } from 'vuex';
 export default {
-  // inject: ['isLoggedIn', 'login', 'logout', 'cart'],
-  // inject: ['cart'],
   methods: {
     ...mapActions(['login', 'logout']),
   },

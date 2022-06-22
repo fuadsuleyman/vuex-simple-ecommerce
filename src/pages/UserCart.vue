@@ -22,7 +22,6 @@
 import CartItem from '../components/cart/CartItem.vue';
 import { mapGetters } from 'vuex';
 export default {
-  // inject: ['cart'],
   components: {
     CartItem,
   },
